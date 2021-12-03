@@ -10,10 +10,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3%;
+    flex-direction: column;
 }
 
 .container {
+    margin: 3%;
     background-color: white;
     width: 75%;
     height: 95%;
@@ -29,7 +30,7 @@ body {
 
 header {
     width: 100%;
-    margin: 2%;
+    margin: 5%;
 }
 
 img {
@@ -53,6 +54,14 @@ li {
 }
 
 .title {
-    margin: 10px;
+    margin: 2%;
     text-align: center;
+}
+
+footer {
+    margin: 3%;
+}
+
+span {
+    margin: 1%;
 }
